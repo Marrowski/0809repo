@@ -1,4 +1,4 @@
-Завдання 1
+#Завдання 1
 
 class Book:
     def __init__(self, author: str, name: str, year: int, genre: str):
@@ -13,6 +13,10 @@ class Book:
 
     def __repr__(self):
         return f'Books with repr method: Name:{self.name!r}, author: {self.author!r},published: {self.year!r}, genre:{self.genre!r}'
+
+
+book1 = Book('Mario Puzo', 'The Godfather', 1935, 'Criminal drama')
+book2 = Book('Arthur Conan Doyle', 'Scherlock Holmes', 1875, 'Detective')
 
 #Завдання 2
 
